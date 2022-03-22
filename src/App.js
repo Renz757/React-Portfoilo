@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import Main from './components/MainComponent';
 import './styles/App.scss';
 
+
 class App extends Component {
+
   
   render() {
       return (  

@@ -1,0 +1,30 @@
+.HomeImage {
+    width: 100%;
+    height: auto;
+    // padding: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.homeText {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+    letter-spacing: 1.5;
+}
+
+.home-btn {
+    background-color: $Double-Colonial-White;
+}
+
+.EmailComponent {
+    padding: 50px 30px;
+    margin: 20px 0;
+    background-color: $Sea-Buckthorn;
+}
+
+.emailStyle {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+}
