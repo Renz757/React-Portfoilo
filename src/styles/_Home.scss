@@ -1,30 +1,82 @@
-.HomeImage {
-    width: 100%;
-    height: auto;
-    // padding: 20px;
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-.homeText {
-    width: 70%;
-    margin: 50px auto;
+.SkillsImage {
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
     text-align: center;
-    letter-spacing: 1.5;
 }
 
-.home-btn {
-    background-color: $Double-Colonial-White;
+.intro {
+    margin-top: 3rem;
+    padding: 5rem;
+
+    h1 {
+        color: $Pomegranate; 
+        font-family: $QuickSand;
+        font-size: 3.5rem;
+    }
+
+    h1, p {
+        padding-bottom: 2.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-family: $IBM;
+
+        .textStyle {
+            color: $DarkBlue;
+        }
+    }
+
+
+    .hero-btn {
+        background-color: $DarkBlue;
+        color: white;
+    }
+    
 }
 
-.EmailComponent {
-    padding: 50px 30px;
-    margin: 20px 0;
-    background-color: $Sea-Buckthorn;
+.arrBtn {
+    cursor: pointer;
+    margin-top: 2rem;
+    color: $DarkBlue;
 }
 
-.emailStyle {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 20px;
+.about-section {
+    background-color: $LightGrey;
+    padding: 4rem;
+
+    .about-me {
+        text-align: center;
+    
+        h2 {
+            font-family: $QuickSand;
+            font-size: 3rem;
+            padding-bottom: 2rem;
+        }
+    
+        p {
+            font-size: 1.25rem;
+            font-family: $IBM;
+        }
+    }
+    
+    .socailIcons {
+        margin: 15px;
+        background-color: $DarkBlue;
+        color: white;
+        border-radius: 50%;
+        
+    }
+}
+
+.skills-section {
+    padding: 3rem;
+
+    .skill {
+        color: $Pomegranate; 
+        font-family: $QuickSand;
+        font-size: 3.5rem;
+    }
 }

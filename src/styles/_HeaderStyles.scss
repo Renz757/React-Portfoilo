@@ -1,15 +1,30 @@
 .navStyles {
-    padding: 2rem;
-    background-color: $Fedora;
+    background-color: $LightGrey;
+    border-bottom: 1px solid $DarkBlue;
 
     .logo {
         font-size: 3rem;
+        color: $DarkBlue;
+        font-family: $Lobster;
+        margin-left: 20px;
     }
 
+    .nav-item {
+        text-decoration: none;
+    }
+    
     .submitBtn {
-        background-color: $Mantis;
+        background-color: $DarkBlue;
         border: none;
         padding: 10px 20px;
+    }
+
+    .MenuIcon {
+        margin-left: 10px;
+        cursor: pointer;
+        position: absolute;
+        top: 23px;
+        right: 50px;
     }
 
 }

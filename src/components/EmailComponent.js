@@ -3,12 +3,14 @@ import React from "react";
 function EmailComponent() {
     return (
         <>
-            <div className="col col-md-3">
-                <p>Sign up now to get the latest deal!</p>
+            <div className="col-12 col-md-12">
+                <h3>Join Our Mailing List</h3>
+                <p>Sign up and save 15% on your next online order</p>
             </div>
-            <div className="col col-md-9">
-                <label htmlFor="email">Email: </label>
-                <input className="emailStyle" id="email" placeholder="Example@email.com" />
+            <div className="col-12 col-md-12">
+                <label htmlFor="email"></label>
+                <input className="emailStyle" id="email" placeholder="Enter Email" />
+                <button className="btn email-btn">Enter</button>
             </div>
         </>
     );
