@@ -10,10 +10,9 @@ function Home(props) {
         return (
             <>
                 <div className="col-6 text-center" key={item.id}>
-                    <img className="SkillsImage" src={item.image}></img>
+                    <img className="SkillsImage" alt="skill set" src={item.image}></img>
                 </div>
             </>
-
         );
     });
 
@@ -36,12 +35,12 @@ function Home(props) {
                 </div>
             </div>
 
-            <div className="container-fuild about-section">
+            <div className="container-fuild about-section" id="about">
                 <div className="row">
                     <div className="col-12 about-me">
                         <h2>About Me</h2>
                         <p>Asipring Web Developer - Photographer - Tech Lover </p>
-                        <p>I am currently attending a full stack online progamming bootcamp learning technologies like Boostrap, JavaScript, React, etc...
+                        <p>I am currently attending a full stack online progamming bootcamp learning technologies like Bootstrap, JavaScript, React, and much more!
                             I love using code to solve problems and create beatiful functioning things on the internet.
                         </p>
                     </div>
@@ -56,11 +55,16 @@ function Home(props) {
             <div className="container skills-section">
                 <div className="row">
                     <div className="col-12 text-center">
-                        <h2><span className="skill">Skills</span></h2>
+                        <h2><span className="skill">My Skills</span></h2>
                     </div>
                 </div>
                 <div className="row">
                     {skill}
+                </div>
+                <div className="row">
+                    <div className="col text-center">
+                        <button className="btn project-btn">View Projects</button>
+                    </div>
                 </div>
             </div>
         </>

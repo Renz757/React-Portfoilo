@@ -7,7 +7,7 @@
 }
 
 .intro {
-    margin-top: 3rem;
+    margin-top: 5rem;
     padding: 5rem;
 
     h1 {
@@ -75,8 +75,15 @@
     padding: 3rem;
 
     .skill {
-        color: $Pomegranate; 
+        color: $DarkBlue; 
         font-family: $QuickSand;
         font-size: 3.5rem;
+    }
+
+    .project-btn {
+        margin-top: 3rem;
+        color: white;
+        font-family: $QuickSand;
+        background-color: $DarkBlue;
     }
 }

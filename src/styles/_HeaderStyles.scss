@@ -1,6 +1,8 @@
 .navStyles {
     background-color: $LightGrey;
-    border-bottom: 1px solid $DarkBlue;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
     .logo {
         font-size: 3rem;
@@ -13,6 +15,20 @@
         text-decoration: none;
     }
     
+    .nav-item:link {
+        color: $Fedora;
+    }
+
+    .nav-item:visited {
+        color: $Fedora;
+    }
+
+    .nav-item:hover {
+        color: $DarkBlue;
+    }
+
+
+
     .submitBtn {
         background-color: $DarkBlue;
         border: none;
@@ -27,4 +43,25 @@
         right: 50px;
     }
 
+}
+
+.mobileLinks {
+    // list-style-type: none;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: $QuickSand;
+    margin: 50px;
+    text-align: center;
+}
+
+.mobileLinks:visited {
+    color: $DarkBlue;
+}
+
+.mobileLinks:link {
+    color: $DarkBlue;
+}
+
+.mobileLinks:hover {
+    color: $LightGrey;
 }
