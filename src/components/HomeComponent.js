@@ -9,8 +9,8 @@ function Home(props) {
     const skill = props.skills.map(item => {
         return (
             <>
-                <div className="col-6 text-center" key={item.id}>
-                    <img className="SkillsImage" alt="skill set" src={item.image}></img>
+                <div className="col-6 col-md-4 text-center" key={item.id}>
+                    <img className="SkillsImage" alt="skill Set" src={item.image}></img>
                 </div>
             </>
         );
@@ -22,15 +22,15 @@ function Home(props) {
         <>
             <div className="container vh-100">
                 <div className="row">
-                    <div className="col-12 intro">
+                    <div className="col-12 intro text-center">
                         <h1>Hello!</h1>
-                        <p>My name is <span className="textStyle">Lorenzo</span> and I am an asipring front end web developer,
-                            who's passionate about creating and designing the web.
+                        <p className="w-40">My name is <span className="textStyle">Lorenzo</span> and I am an <span className="textStyle">asipring</span> front end web developer,
+                            who's <span className="textStyle">passionate</span> about <span className="textStyle">creating</span> and designing the web.
                         </p>
                         <button className="btn hero-btn">Learn More</button>
                     </div>
                     <div className="col-12 text-center">
-                        <KeyboardArrowDownRoundedIcon className="arrBtn" fontSize="large" />
+                        <KeyboardArrowDownRoundedIcon className="arrBtn bounce" fontSize="large" />
                     </div>
                 </div>
             </div>

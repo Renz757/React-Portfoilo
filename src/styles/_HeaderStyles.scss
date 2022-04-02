@@ -1,39 +1,41 @@
+body {
+    background-color: $Background-Color;
+}
+
 .navStyles {
-    background-color: $LightGrey;
+    background-color: $DarkBlue;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 
     .logo {
         font-size: 3rem;
-        color: $DarkBlue;
+        color: $Mustard;
         font-family: $Lobster;
         margin-left: 20px;
+        cursor: pointer;
+        text-decoration: none;
     }
+
 
     .nav-item {
         text-decoration: none;
+        font-size: 1.25rem;
     }
     
     .nav-item:link {
-        color: $Fedora;
+        color: white;
     }
 
     .nav-item:visited {
-        color: $Fedora;
+        color: white;
     }
 
     .nav-item:hover {
-        color: $DarkBlue;
+        color: $LightGrey;
     }
 
-
-
-    .submitBtn {
-        background-color: $DarkBlue;
-        border: none;
-        padding: 10px 20px;
-    }
 
     .MenuIcon {
         margin-left: 10px;
@@ -41,6 +43,7 @@
         position: absolute;
         top: 23px;
         right: 50px;
+        color: white;
     }
 
 }
@@ -64,4 +67,8 @@
 
 .mobileLinks:hover {
     color: $LightGrey;
+}
+
+.offcanvas {
+    background-color: $Background-Color;
 }

@@ -4,14 +4,15 @@
     height: 100px;
     margin: 30px;
     text-align: center;
+    // box-shadow: -2px 7px 19px 9px rgba(26,35,80,0.75);
 }
 
 .intro {
-    margin-top: 5rem;
+    margin-top: 6rem;
     padding: 5rem;
 
     h1 {
-        color: $Pomegranate; 
+        color: $Mustard; 
         font-family: $QuickSand;
         font-size: 3.5rem;
     }
@@ -23,15 +24,16 @@
     p {
         font-size: 1.5rem;
         font-family: $IBM;
+        color: black;
 
         .textStyle {
-            color: $DarkBlue;
+            color: $Mustard;
         }
     }
 
 
     .hero-btn {
-        background-color: $DarkBlue;
+        background-color: #4b6268;
         color: white;
     }
     
@@ -40,12 +42,17 @@
 .arrBtn {
     cursor: pointer;
     margin-top: 2rem;
-    color: $DarkBlue;
+    color: #4b6268;
 }
 
 .about-section {
-    background-color: $LightGrey;
-    padding: 4rem;
+    background-color: $DarkBlue;
+    color: white;
+    padding: 6rem 4rem 4rem 4rem;
+    width: 100%;
+    height: 80%;
+
+    position: relative;
 
     .about-me {
         text-align: center;
@@ -54,6 +61,7 @@
             font-family: $QuickSand;
             font-size: 3rem;
             padding-bottom: 2rem;
+            color: $Mustard;
         }
     
         p {
@@ -71,6 +79,33 @@
     }
 }
 
+.about-section:before {
+    position: absolute;
+    width: 50%;
+    height: 125px;
+    content: "";
+    background: inherit;
+    top: -50px;
+    left: 0;
+    transform: skewY(7deg);
+    // transform-origin: top right;
+    z-index: -1;
+}
+
+.about-section:after {
+    position: absolute;
+    width: 50%;
+    height: 125px;
+    content: "";
+    background: inherit;
+    top: -50px;
+    right: 0;
+    transform: skewY(-7deg);
+    // transform-origin: top right;
+    z-index: -1;
+}
+
+
 .skills-section {
     padding: 3rem;
 
@@ -84,6 +119,6 @@
         margin-top: 3rem;
         color: white;
         font-family: $QuickSand;
-        background-color: $DarkBlue;
+        background-color: #4b6268;
     }
 }

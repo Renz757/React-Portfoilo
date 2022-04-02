@@ -27,17 +27,17 @@ class Header extends Component {
         return (
             <>
                 <nav className="navStyles navbar navbar-expand-lg row m-0 align-items-center" id="#home">
-                    <div className="col-2 col-lg-4 text-center mr-5 mr-lg-0">
-                        <h1 className="logo">L.T</h1>
+                    <div className="col-2 col-md-8 text-left mr-5 mr-lg-0">
+                        <Link to="/home" className="logo">L.T</Link>
                     </div>
 
-                    <div className="d-none d-lg-block col-md-6">
+                    <div className="d-none d-lg-block col-md-4">
                         <ul className="d-sm-flex navbar-nav">
                             <NavLink className="nav-item p-2" to="/home">
                                 Home
                             </NavLink>
-                            <NavLink className="nav-item p-2" to="/products">
-                                Products
+                            <NavLink className="nav-item p-2" to="/projects">
+                                Projects
                             </NavLink>
                             <NavLink className="nav-item p-2" to="/about">
                                 About
@@ -49,16 +49,16 @@ class Header extends Component {
                     </div>
 
                     <div className="nav-utilities col-4 col-lg-2 align-items-end d-flex align-middle">
-                        <button className="submitBtn btn btn-dark mb-3 mb-lg-0 d-none d-lg-block" type="submit">Sign In</button>
                         <MenuIcon onClick={this.toggleMenu} fontSize="large" className="MenuIcon d-lg-none" />
                     </div>
                 </nav>
                 <Offcanvas
                     isOpen={this.state.isOpen}
                     toggle={this.toggleMenu}
+                    className="offcanvas"
                 >
                     <OffcanvasHeader toggle={this.toggleMenu}>
-                        <h1 className="logo">L.T</h1>
+                        <Link to='/home' onClick={this.toggleMenu} className="mobileLinks logo">LT</Link>
                     </OffcanvasHeader>
                     <OffcanvasBody>
                         <ul className="list-unstyled">
