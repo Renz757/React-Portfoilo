@@ -8,16 +8,18 @@ const Footer = () => {
     return (
         <>
             <div className="container-fuild footer-section">
-                <ul className="row">
-                    <div className="col">
-                        <li><Link className="footer-link" to="Home">Home</Link></li>
-                        <li><Link className="footer-link" to="about">About</Link></li>
-                        <li><Link className="footer-link" to="contact">Contact</Link></li>
-                        <li><Link className="footer-link" to="Home">Extras</Link></li>
-                    </div>
-                </ul>
                 <div className="row">
-                    <div className="col icon-group">
+                    <div className="col-12 col-md-8">
+                        <ul className="d-md-flex align-middle footer-link-parent">
+                            <li><Link className="footer-link" to="home">Home</Link></li>
+                            <li><Link className="footer-link" to="projects">Projects</Link></li>
+                            <li><Link className="footer-link" to="about">About</Link></li>
+                            <li><Link className="footer-link" to="contact">Contact</Link></li>
+                            <li><Link className="footer-link" to="home">Extras</Link></li>
+                        </ul>
+                    </div>
+
+                    <div className="col-12 col-md-4 icon-group align-middle">
                         <TwitterIcon className="footer-icon" fontSize="large" />
                         <GitHubIcon className="footer-icon" fontSize="large" />
                         <LinkedInIcon className="footer-icon" fontSize="large" />

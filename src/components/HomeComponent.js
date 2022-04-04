@@ -25,7 +25,7 @@ function Home(props) {
                     <div className="col-12 intro text-center">
                         <h1>Hello!</h1>
                         <p className="w-40">My name is <span className="textStyle">Lorenzo</span> and I am an <span className="textStyle">asipring</span> front end web developer,
-                            who's <span className="textStyle">passionate</span> about <span className="textStyle">creating</span> and designing the web.
+                          <span className="textStyle"> passionate</span> about <span className="textStyle">creating</span> and designing the web.
                         </p>
                         <button className="btn hero-btn">Learn More</button>
                     </div>

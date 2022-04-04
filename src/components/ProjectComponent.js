@@ -1,7 +1,6 @@
-import React from "react";
+import React from 'react';
 
-function About() {
-
+function Projects(props) {
     return (
         <>
             <div className='ComingSoon'>
@@ -11,4 +10,4 @@ function About() {
     );
 }
 
-export default About;
+export default Projects;

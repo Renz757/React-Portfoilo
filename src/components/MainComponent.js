@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from "./HeaderComponent";
 import Home from "./HomeComponent";
+import Projects from "./ProjectComponent"
 import About from "./AboutComponent";
 import Contact from './ContactComponent';
 import Footer from './FooterComponent';
@@ -21,6 +22,7 @@ class Main extends Component {
                 <Header />
                 <Switch>
                     <Route path='/home' render={()=> <Home skills={this.state.skills_data} />} />
+                    <Route path='/projects' component={Projects}/>
                     <Route path='/about' component={About} />
                     <Route exact path='/contact' component={Contact} />
                     <Redirect to='/home' />
