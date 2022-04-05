@@ -24,8 +24,8 @@ function Home(props) {
                 <div className="row">
                     <div className="col-12 intro text-center">
                         <h1>Hello!</h1>
-                        <p className="w-40">My name is <span className="textStyle">Lorenzo</span> and I am an <span className="textStyle">asipring</span> front end web developer,
-                          <span className="textStyle"> passionate</span> about <span className="textStyle">creating</span> and designing the web.
+                        <p className="w-40">My name is <span className="textStyle">Lorenzo</span> and I am an <span className="textStyle">Aspiring</span> front end web developer,
+                          <span className="textStyle"> Passionate</span> about <span className="textStyle">Creating</span> and designing the web.
                         </p>
                         <button className="btn hero-btn">Learn More</button>
                     </div>
@@ -39,9 +39,9 @@ function Home(props) {
                 <div className="row">
                     <div className="col-12 about-me">
                         <h2>About Me</h2>
-                        <p>Asipring Web Developer - Photographer - Tech Lover </p>
+                        <p>Aspiring Web Developer - Photographer - Tech Lover </p>
                         <p>I am currently attending a full stack online progamming bootcamp learning technologies like Bootstrap, JavaScript, React, and much more!
-                            I love using code to solve problems and create beatiful functioning things on the internet.
+                            I love using code to solve problems and create beautiful functioning things on the internet.
                         </p>
                     </div>
                     <div className="col text-center">

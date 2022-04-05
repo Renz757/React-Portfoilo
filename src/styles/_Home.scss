@@ -8,7 +8,7 @@
 }
 
 .intro {
-    margin-top: 6rem;
+    margin-top: 4rem;
     padding: 5rem;
 
     h1 {
@@ -22,12 +22,12 @@
     }
 
     p {
-        font-size: 1.5rem;
-        font-family: $IBM;
-        color: black;
+        font-size: 1.78rem;
+        font-family: $QuickSand;
+        color: $DarkBlue;
 
         .textStyle {
-            color: $Mustard;
+            color: $Fedora;
         }
     }
 
@@ -41,7 +41,6 @@
 
 .arrBtn {
     cursor: pointer;
-    margin-top: 2rem;
     color: #4b6268;
 }
 
