@@ -39,7 +39,7 @@ function Home(props) {
                 <div className="row">
                     <div className="col-12 about-me">
                         <h2>About Me</h2>
-                        <p>Aspiring Web Developer - Photographer - Tech Lover </p>
+                        <p className="">Aspiring Web Developer - Photographer - Tech Lover </p>
                         <p>I am currently attending a full stack online progamming bootcamp learning technologies like Bootstrap, JavaScript, React, and much more!
                             I love using code to solve problems and create beautiful functioning things on the internet.
                         </p>
