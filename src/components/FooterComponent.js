@@ -19,9 +19,9 @@ const Footer = () => {
                     </div>
 
                     <div className="col-12 col-md-4 icon-group align-middle">
-                        <TwitterIcon className="footer-icon" fontSize="large" />
-                        <GitHubIcon className="footer-icon" fontSize="large" />
-                        <LinkedInIcon className="footer-icon" fontSize="large" />
+                        <a href="https://twitter.com/Renz_757" target="_blank" rel="noreferrer"><TwitterIcon className="footer-icon" fontSize="large" /></a>
+                        <a href="https://github.com/Renz757" target="_blank" rel="noreferrer"><GitHubIcon className="footer-icon" fontSize="large" /></a>
+                        <a href="https://www.linkedin.com/in/lorenzo-tinsley-0b8049139/" target="_blank" rel="noreferrer"><LinkedInIcon className="footer-icon" fontSize="large" /></a>
                     </div>
                 </div>
             </div>

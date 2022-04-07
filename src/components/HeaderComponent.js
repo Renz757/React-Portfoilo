@@ -64,7 +64,7 @@ class Header extends Component {
                         <ul className="list-unstyled">
                             <li><Link to='/home' onClick={this.toggleMenu} className="mobileLinks">Home</Link></li>
                             <li><Link to='/projects' onClick={this.toggleMenu} className="mobileLinks">Projects</Link></li>
-                            <li><Link to='/about' onClick={this.toggleMenu} className="mobileLinks">Abobut</Link></li>
+                            <li><Link to='/about' onClick={this.toggleMenu} className="mobileLinks">About</Link></li>
                             <li><Link to='/contact' onClick={this.toggleMenu} className="mobileLinks">Contact</Link></li>
                         </ul>
                     </OffcanvasBody>

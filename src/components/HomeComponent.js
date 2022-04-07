@@ -45,9 +45,9 @@ function Home(props) {
                         </p>
                     </div>
                     <div className="col text-center">
-                        <TwitterIcon className="socailIcons" fontSize="large" />
-                        <GitHubIcon className="socailIcons" fontSize="large" />
-                        <LinkedInIcon className="socailIcons" fontSize="large" />
+                        <a href="https://twitter.com/Renz_757" target="_blank" rel="noreferrer"><TwitterIcon className="socailIcons" fontSize="large" /></a>
+                        <a href="https://github.com/Renz757" target="_blank" rel="noreferrer"><GitHubIcon className="socailIcons" fontSize="large" /></a>
+                        <a href="https://www.linkedin.com/in/lorenzo-tinsley-0b8049139/" target="_blank" rel="noreferrer"><LinkedInIcon className="socailIcons" fontSize="large" /></a>
                     </div>
                 </div>
             </div>
