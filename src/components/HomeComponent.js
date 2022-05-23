@@ -10,7 +10,7 @@ function Home(props) {
         return (
             <>
                 <div className="col-6 col-md-4 text-center" key={item.id}>
-                    <img className="SkillsImage" alt="skill Set" src={item.image}></img>
+                    <img className="SkillsImage" alt="Skill Set" src={item.image}></img>
                 </div>
             </>
         );
@@ -25,7 +25,7 @@ function Home(props) {
                     <div className="col-12 intro text-center">
                         <h1>Hello!</h1>
                         <p className="w-40">My name is <span className="textStyle">Lorenzo</span> and I am an <span className="textStyle">Aspiring</span> front end web developer,
-                          <span className="textStyle"> Passionate</span> about <span className="textStyle">Creating</span> and designing the web.
+                            <span className="textStyle"> Passionate</span> about <span className="textStyle">Creating</span> and designing the web.
                         </p>
                         <button className="btn hero-btn">Learn More</button>
                     </div>
