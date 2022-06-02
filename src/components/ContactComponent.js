@@ -6,6 +6,7 @@ import Button from './FormButton';
 
 function Contact() {
 
+
     const INITIAL_FORM_STATE = {
         firstName: '',
         lastName: '',
@@ -19,6 +20,7 @@ function Contact() {
         email: Yup.string().required("Required").email("Invalid Email"),
         message: Yup.string()
     });
+
     return (
         <>
             <div className='contactForm'>
@@ -27,8 +29,9 @@ function Contact() {
                         ...INITIAL_FORM_STATE
                     }}
                     validationSchema={FORM_VALIDATION}
-                    onSubmit={values => {
+                    onSubmit={(values, {resetForm}) => {
                         console.log(values);
+                        resetForm({ values: ''});
                     }}
                 >
                     <Form>
@@ -61,7 +64,9 @@ function Contact() {
                                 />
                             </Grid>
                             <Grid item xs={12}>
-                                <Button>
+                                <Button
+                                
+                                >
                                     Submit
                                 </Button>
                             </Grid>
