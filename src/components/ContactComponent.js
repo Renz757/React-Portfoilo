@@ -1,56 +1,76 @@
-import React, { Component } from 'react';
-import { Form, FormGroup, Input, Label, Col, Button } from 'reactstrap';
+import { Grid } from '@mui/material';
+import * as Yup from 'yup';
+import { Formik, Form } from 'formik';
+import Textfield from './FormUI';
+import Button from './FormButton';
 
-class Contact extends Component {
-    constructor(props) {
-        super(props);
+function Contact() {
 
-        this.state = {
+    const INITIAL_FORM_STATE = {
+        firstName: '',
+        lastName: '',
+        email: '',
+        message: ''
+    };
 
-        }
-    }
+    const FORM_VALIDATION = Yup.object().shape({
+        firstName: Yup.string().required("Required"),
+        lastName: Yup.string().required("Required"),
+        email: Yup.string().required("Required").email("Invalid Email"),
+        message: Yup.string()
+    });
+    return (
+        <>
+            <div className='contactForm'>
+                <Formik
+                    initialValues={{
+                        ...INITIAL_FORM_STATE
+                    }}
+                    validationSchema={FORM_VALIDATION}
+                    onSubmit={values => {
+                        console.log(values);
+                    }}
+                >
+                    <Form>
+                        <Grid container spacing={4}>
+                            <Grid item xs={6}>
+                                <Textfield
+                                    name="firstName"
+                                    label="First Name"
+                                />
+                            </Grid>
+                            <Grid item xs={6}>
+                                <Textfield
+                                    name="lastName"
+                                    label="Last Name"
+                                />
+                            </Grid>
+                            <Grid item xs={12}>
+                                <Textfield
+                                    name="email"
+                                    label="Email"
+                                />
+                            </Grid>
+                            <Grid item xs={12}>
+                                <Textfield
+                                    name="message"
+                                    label="Contact"
+                                    multiline={true}
+                                    rows={4}
 
-    render() {
-        return (
-            <>
-                <div className='container contactForm'>
-                    <div className='row'>
-                        <div className='col'>
-                            <Form>
-                                <FormGroup row>
-                                    <Label for="fname" sm={12}>First Name: </Label>
-                                    <Col sm={12}>
-                                        <Input type="text" name="fname" id="fname" placeholder="Enter Your First Name" className="form-control" />
-                                    </Col>
-                                </FormGroup>
-                                <FormGroup row>
-                                    <Label for="lname" sm={12}>Last Name: </Label>
-                                    <Col sm={12}>
-                                        <Input type="text" name="lname" id="lname" placeholder="Enter Your Last Name" />
-                                    </Col>
-                                </FormGroup>
-                                <FormGroup row>
-                                    <Label for="exampleEmail" sm={12}>Email: </Label>
-                                    <Col sm={12}>
-                                        <Input type="email" name="email" id="exampleEmail" placeholder="Enter Your Email" />
-                                    </Col>
-                                </FormGroup>
-                                <FormGroup row>
-                                    <Label sm={12}  for="exampleText"></Label>
-                                    <Col sm={12} >
-                                        <Input type="textarea" name="text" id="exampleText" rows="10"
-                                             />
-                                         <Button className='form-btn'>Submit</Button>
-                                    </Col>
-                                </FormGroup>
-                                
-                            </Form>
-                        </div>
-                    </div>
-                </div>
-            </>
-        );
-    }
+                                />
+                            </Grid>
+                            <Grid item xs={12}>
+                                <Button>
+                                    Submit
+                                </Button>
+                            </Grid>
+                        </Grid>
+                    </Form>
+                </Formik>
+            </div>
+        </>
+    );
 }
 
 export default Contact;
