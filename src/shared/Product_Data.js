@@ -34,7 +34,7 @@ export const Skills_Data = [
 export const Project_Image = [
     {
         id: 0,
-        image: "/images/planet-screenshot.png",
+        image: "/images/planet.gif",
         text: "Planet Fact Site Screenshot",
         url: "https://beautiful-buttercream-ad8680.netlify.app"
     },
