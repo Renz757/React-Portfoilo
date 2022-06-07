@@ -6,7 +6,6 @@ import Button from './FormButton';
 
 function Contact() {
 
-
     const INITIAL_FORM_STATE = {
         firstName: '',
         lastName: '',
@@ -14,6 +13,7 @@ function Contact() {
         message: ''
     };
 
+    
     const FORM_VALIDATION = Yup.object().shape({
         firstName: Yup.string().required("Required"),
         lastName: Yup.string().required("Required"),

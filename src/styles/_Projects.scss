@@ -1,15 +1,13 @@
-.ComingSoon {
+.projectContainer {
     width: 100vw;
     height: 85vh;
     text-align: center;
-    color: white;
-    position: relative;
-    margin-top: 5rem;
+    // position: relative;
+    margin: 5rem auto auto auto;
 
-    h1 {
-        padding-top: 10rem;
-        font-size: 5rem;
-        color: $Mustard;
-        font-family: $IBM;
+    .project-image {
+        width: 300px;
+        border-radius: 2%;
+        margin-top: 50px;
     }
 }

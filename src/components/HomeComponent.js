@@ -3,6 +3,7 @@ import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownR
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { Link } from 'react-router-dom';
 
 function Home(props) {
 
@@ -63,7 +64,9 @@ function Home(props) {
                 </div>
                 <div className="row">
                     <div className="col text-center">
-                        <button className="btn project-btn">View Projects</button>
+                        <Link to="/projects">
+                            <button className="btn project-btn">View Projects</button>
+                        </Link>
                     </div>
                 </div>
             </div>

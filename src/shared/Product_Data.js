@@ -30,3 +30,18 @@ export const Skills_Data = [
         text: 'React'
     }
 ];
+
+export const Project_Image = [
+    {
+        id: 0,
+        image: "/images/planet-screenshot.png",
+        text: "Planet Fact Site Screenshot",
+        url: "https://beautiful-buttercream-ad8680.netlify.app"
+    },
+    {
+        id: 1,
+        image: "/images/3column-screenshot.png",
+        text: "3 column preview card Screenshot",
+        url: "https://enchanting-longma-fdb96a.netlify.app"
+    }
+];
