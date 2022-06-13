@@ -3,6 +3,7 @@ import * as Yup from 'yup';
 import { Formik, Form } from 'formik';
 import Textfield from './FormUI';
 import Button from './FormButton';
+import axios from 'axios';
 
 function Contact() {
 
@@ -30,7 +31,7 @@ function Contact() {
                     }}
                     validationSchema={FORM_VALIDATION}
                     onSubmit={(values, {resetForm}) => {
-                        console.log(values);
+                        axios.post('http://localhost:3001/contact', values)
                         resetForm({ values: ''});
                     }}
                 >

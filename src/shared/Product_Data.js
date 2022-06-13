@@ -2,7 +2,7 @@ export const Skills_Data = [
     {
         id: 0,
         image: "/images/sass.png",
-        text: 'Sass'
+        text: 'SASS'
     },
     {
         id: 1,
@@ -45,3 +45,11 @@ export const Project_Image = [
         url: "https://enchanting-longma-fdb96a.netlify.app"
     }
 ];
+
+export const About_Data = [
+    {
+        id: 0,
+        image: "/images/profile-image.jpg",
+        text: "Profile Image"
+    }
+]
