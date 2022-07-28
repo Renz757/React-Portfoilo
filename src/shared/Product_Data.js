@@ -43,6 +43,13 @@ export const Project_Image = [
         image: "/images/3column-screenshot.png",
         text: "3 column preview card Screenshot",
         url: "https://enchanting-longma-fdb96a.netlify.app"
+    },
+    {
+        id: 2,
+        image: "/images/url.gif",
+        text: " URL Shortening API Landing Page",
+        url: "https://friendly-pony-52709c.netlify.app/"
+
     }
 ];
 
