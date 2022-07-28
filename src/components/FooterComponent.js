@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <>
             <div className="container-fuild footer-section">
