@@ -31,7 +31,7 @@ function Contact() {
                     }}
                     validationSchema={FORM_VALIDATION}
                     onSubmit={(values, {resetForm}) => {
-                        axios.post('http://localhost:3001/contact', values)
+                        axios.post('https://lorenzo-portfolio.herokuapp.com/contact', values)
                         resetForm({ values: ''});
                     }}
                 >
