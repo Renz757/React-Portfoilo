@@ -26,10 +26,12 @@
         background-color: $DarkBlue;
         border-radius: 50%;
         margin: 0 auto 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         .profilePicture {
             border-radius: 50%;
-            margin: 10px 0px 0px 10px;
         }
     }
 
