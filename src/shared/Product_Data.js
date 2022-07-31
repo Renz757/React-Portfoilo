@@ -6,7 +6,7 @@ export const Skills_Data = [
     },
     {
         id: 1,
-        image: '/images/html.png',
+        image: '/images/html2.png',
         text: 'HTML 5'
     },
     {
@@ -16,7 +16,7 @@ export const Skills_Data = [
     },
     {
         id: 3,
-        image: "/images/bootstrap.png",
+        image: "/images/bootstrap1.png",
         text: 'Bootstrap'
     },
     {
@@ -28,7 +28,22 @@ export const Skills_Data = [
         id: 5,
         image: "/images/react.png",
         text: 'React'
-    }
+    },
+    {
+        id: 6,
+        image: "/images/nodejs.png",
+        text: 'Node Js'
+    },
+    {
+        id: 7,
+        image: "/images/leaf.png",
+        text: 'Mongo DB'
+    },
+    {
+        id: 8,
+        image: "/images/redux.png",
+        text: 'Redux'
+    },
 ];
 
 export const Project_Image = [

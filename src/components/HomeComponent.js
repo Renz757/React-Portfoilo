@@ -41,7 +41,7 @@ function Home(props) {
                     <div className="col-12 about-me">
                         <h2>About Me</h2>
                         <p className="">Aspiring Web Developer - Photographer - Tech Lover </p>
-                        <p>I am currently attending a full stack online progamming bootcamp learning technologies like Bootstrap, JavaScript, React, and much more!
+                        <p>I am a recent graduate of a full stack online progamming bootcamp learning technologies like Bootstrap, JavaScript, React, and much more!
                             I love using code to solve problems and create beautiful functioning things on the internet.
                         </p>
                     </div>
