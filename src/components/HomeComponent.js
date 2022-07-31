@@ -28,7 +28,7 @@ function Home(props) {
                         <p className="w-40">My name is <span className="textStyle">Lorenzo</span> and I am an <span className="textStyle">Aspiring</span> front end web developer,
                             <span className="textStyle"> Passionate</span> about <span className="textStyle">Creating</span> and designing the web.
                         </p>
-                        <button className="btn hero-btn">Learn More</button>
+                       <Link to='about'><button className="btn hero-btn">Learn More</button></Link>
                     </div>
                     <div className="col-12 text-center">
                         <KeyboardArrowDownRoundedIcon className="arrBtn bounce" fontSize="large" />

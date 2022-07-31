@@ -40,25 +40,25 @@ function Contact() {
                             <Grid item xs={6}>
                                 <Textfield
                                     name="firstName"
-                                    label="First Name"
+                                    label="First Name:"
                                 />
                             </Grid>
                             <Grid item xs={6}>
                                 <Textfield
                                     name="lastName"
-                                    label="Last Name"
+                                    label="Last Name:"
                                 />
                             </Grid>
                             <Grid item xs={12}>
                                 <Textfield
                                     name="email"
-                                    label="Email"
+                                    label="Email:"
                                 />
                             </Grid>
                             <Grid item xs={12}>
                                 <Textfield
                                     name="message"
-                                    label="Contact"
+                                    label="Message:"
                                     multiline={true}
                                     rows={4}
 

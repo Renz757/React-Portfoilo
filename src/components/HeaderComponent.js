@@ -58,7 +58,7 @@ class Header extends Component {
                     className="offcanvas"
                 >
                     <OffcanvasHeader toggle={this.toggleMenu}>
-                        <Link to='/home' onClick={this.toggleMenu} className="mobileLinks logo">LT</Link>
+                        <Link to='/home' onClick={this.toggleMenu} className="mobileLinkList logo">LT</Link>
                     </OffcanvasHeader>
                     <OffcanvasBody>
                         <ul className="list-unstyled">
