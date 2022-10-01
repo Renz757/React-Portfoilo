@@ -62,8 +62,15 @@ export const Project_Image = [
     {
         id: 2,
         image: "/images/url.gif",
-        text: " URL Shortening API Landing Page",
+        text: "URL Shortening API Landing Page",
         url: "https://friendly-pony-52709c.netlify.app/"
+
+    },
+    {
+        id: 3,
+        image: "/images/passwordGenerator.gif",
+        text: "Password Generator App",
+        url: "https://incredible-boba-2909dc.netlify.app/"
 
     }
 ];

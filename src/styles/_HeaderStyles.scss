@@ -3,22 +3,22 @@ body {
     height: 100vh;
 }
 
+.logo {
+    font-size: 3rem;
+    color: $Mustard;
+    font-family: $Lobster;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
 .navStyles {
     background-color: $DarkBlue;
     width: 100%;
     z-index: 1000;
     top: 0;
     position: absolute;
-
-
-    .logo {
-        font-size: 3rem;
-        color: $Mustard;
-        font-family: $Lobster;
-        margin-left: 20px;
-        cursor: pointer;
-        text-decoration: none;
-    }
 
 
     .nav-item {
