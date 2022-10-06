@@ -12,6 +12,11 @@ body {
     text-decoration: none;
 }
 
+.logo-image {
+    height: 65px;
+    width: 65px;
+}
+
 
 .navStyles {
     background-color: $DarkBlue;
@@ -76,6 +81,10 @@ body {
 
 .offcanvas {
     background-color: $Background-Color;
+}
+
+.offcanvas-header {
+    background-color: $DarkBlue;
 }
 
 .mobileLinks {

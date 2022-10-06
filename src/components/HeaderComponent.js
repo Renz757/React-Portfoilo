@@ -3,6 +3,7 @@ import { Component } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import { NavLink, Link } from 'react-router-dom';
 import { Offcanvas, OffcanvasHeader, OffcanvasBody } from 'reactstrap';
+import Logo from '../shared/src-images/Lorenzo-2.png'
 
 
 
@@ -28,7 +29,7 @@ class Header extends Component {
             <>
                 <nav className="navStyles navbar navbar-expand-lg row m-0 align-items-center" id="#home">
                     <div className="col-2 col-md-8 text-left mr-5 mr-lg-0">
-                        <Link to="/home" className="logo">L.T</Link>
+                        <Link to="/home" className="logo"><img className="logo-image" src={Logo} alt="logo"/></Link>
                     </div>
 
                     <div className="d-none d-lg-block col-md-4">
@@ -57,8 +58,8 @@ class Header extends Component {
                     toggle={this.toggleMenu}
                     className="offcanvas"
                 >
-                    <OffcanvasHeader toggle={this.toggleMenu}>
-                        <Link to='/home' onClick={this.toggleMenu} className="mobileLinkList logo">LT</Link>
+                    <OffcanvasHeader className="offcanvas-header" toggle={this.toggleMenu}>
+                        <Link to='/home' onClick={this.toggleMenu} className="mobileLinkList logo"><img className="logo-image" src={Logo} alt="logo"/></Link>
                     </OffcanvasHeader>
                     <OffcanvasBody>
                         <ul className="list-unstyled">
