@@ -28,7 +28,7 @@ class Header extends Component {
         return (
             <>
                 <nav className="navStyles navbar navbar-expand-lg row m-0 align-items-center" id="#home">
-                    <div className="col-2 col-md-8 text-left mr-5 mr-lg-0">
+                    <div className="col-2 col-md-8 text-left mr-5 mr-lg-0 w-10">
                         <Link to="/home" className="logo"><img className="logo-image" src={Logo} alt="logo"/></Link>
                     </div>
 
@@ -49,7 +49,7 @@ class Header extends Component {
                         </ul>
                     </div>
 
-                    <div className="nav-utilities col-4 col-lg-2 align-items-end d-flex align-middle">
+                    <div className="nav-utilities col-4 col-lg-2 d-flex align-middle">
                         <MenuIcon onClick={this.toggleMenu} fontSize="large" className="MenuIcon d-lg-none" />
                     </div>
                 </nav>
