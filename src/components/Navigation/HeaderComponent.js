@@ -35,14 +35,12 @@ const Header = () => {
                         <Link className="no-underline text-white" to="/projects">Projects</Link>
                         <Link className="no-underline text-white" to="/about">About</Link>
                         <Link className="no-underline text-white" to="/contact">Contact</Link>
-
                     </ul>
                 </div>
 
                 <div className="md:hidden cursor-pointer" onClick={sideNavHandler}>
                     <MenuIcon  />
                 </div>
-
             </nav>
             <SideNav isOpen={isOpen} setSideNav={sideNavHandler}/>
         </>

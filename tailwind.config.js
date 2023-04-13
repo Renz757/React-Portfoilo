@@ -6,7 +6,15 @@ module.exports = {
   theme: {
     colors: {
       'dark-blue': '#1A2350',
-      'mustard': '#d8ae62'
+      'mustard': '#d8ae62',
+      'off-white': '#dedace',
+      'fedora': '#7b6d78',
+
+    },
+    fontFamily: {
+      IBM: ["IBM Plex Sans Arabic", ";sans-serif"],
+      Quicksand: ["Quicksand", "sans-serif"],
+      Lobster: ["Lobster", "cursive"]
     },
     extend: {},
   },
