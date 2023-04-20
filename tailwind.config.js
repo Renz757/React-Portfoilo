@@ -9,7 +9,8 @@ module.exports = {
       'mustard': '#d8ae62',
       'off-white': '#dedace',
       'fedora': '#7b6d78',
-
+      'reseda-green': '#5c7457',
+      'accent-color': '#ffb02d'
     },
     fontFamily: {
       IBM: ["IBM Plex Sans Arabic", ";sans-serif"],
@@ -18,6 +19,10 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    // require('@tailwindcss/forms')({
+    //   strategy: 'base'
+    // }),
+  ],
 }
 

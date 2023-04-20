@@ -17,32 +17,34 @@ const Header = () => {
     const sideNavHandler = () => {
         setIsOpen(!isOpen)
         console.log('click')
-
-        isOpen ? allowScroll() : blockScroll() 
+        window.scrollTo(0, 0)
+        isOpen ? allowScroll() : blockScroll()
     }
 
     return (
         <>
-            {isOpen && <Backdrop closeSideNav={sideNavHandler}/>}
+            {isOpen && <Backdrop closeSideNav={sideNavHandler} />}
+            <SideNav isOpen={isOpen} setSideNav={sideNavHandler} />
             <nav className="flex justify-between items-center bg-dark-blue p-3" id="#home">
-                <div className="">
-                    <Link to="/home"><img className="w-14 h-14 rounded-full" src={Logo} alt="logo" /></Link>
-                </div>
+                <Link className="no-underline text-accent-color" to="/home">
+                    <div className="w-14 h-14 border-2 rounded-full flex justify-center items-center text-2xl">
+                        L
+                    </div>
+                </Link>
 
                 <div className="hidden md:block mr-10">
                     <ul className="flex gap-x-3 mb-0">
-                        <Link className="no-underline text-white p-0 m-0" to="/home">Home</Link>
-                        <Link className="no-underline text-white" to="/projects">Projects</Link>
-                        <Link className="no-underline text-white" to="/about">About</Link>
-                        <Link className="no-underline text-white" to="/contact">Contact</Link>
+                        <Link className="no-underline text-off-white hover:text-accent-color lg:text-xl p-0 m-0" to="/home">Home</Link>
+                        <Link className="no-underline text-off-white hover:text-accent-color lg:text-xl" to="/projects">Projects</Link>
+                        <Link className="no-underline text-off-white hover:text-accent-color lg:text-xl" to="/about">About</Link>
+                        <Link className="no-underline text-off-white hover:text-accent-color lg:text-xl" to="/contact">Contact</Link>
                     </ul>
                 </div>
 
-                <div className="md:hidden cursor-pointer" onClick={sideNavHandler}>
-                    <MenuIcon  />
+                <div className="md:hidden cursor-pointer text-off-white" onClick={sideNavHandler}>
+                    <MenuIcon />
                 </div>
             </nav>
-            <SideNav isOpen={isOpen} setSideNav={sideNavHandler}/>
         </>
     );
 }

@@ -2,29 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 .arrBtn {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .bounce {
-  -webkit-animation-name: bounce;
-          animation-name: bounce;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-}
-
-@-webkit-keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+  animation-name: bounce;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes bounce {
@@ -43,20 +27,25 @@ body {
   height: 100vh;
 }
 
+.logo {
+  color: #d8ae62;
+  font-family: "Lobster", cursive;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo-image {
+  height: 60px;
+  width: 60px;
+}
+
 .navStyles {
   background-color: #1A2350;
   width: 100%;
   z-index: 1000;
   top: 0;
   position: absolute;
-}
-.navStyles .logo {
-  font-size: 3rem;
-  color: #d8ae62;
-  font-family: "Lobster", cursive;
-  margin-left: 20px;
-  cursor: pointer;
-  text-decoration: none;
 }
 .navStyles .nav-item {
   text-decoration: none;
@@ -80,13 +69,12 @@ body {
   color: white;
 }
 
-.mobileLinks {
-  text-decoration: none;
+.mobileLinkList {
   font-size: 2rem;
   font-family: "Quicksand", sans-serif;
-  margin-top: 50px;
   text-align: center;
-  border-bottom: 1px solid #1A2350;
+  width: 67%;
+  margin: 0 auto;
 }
 
 .mobileLinks:visited {
@@ -103,6 +91,18 @@ body {
 
 .offcanvas {
   background-color: #dedace;
+}
+
+.offcanvas-header {
+  background-color: #1A2350;
+}
+
+.mobileLinks {
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 2rem;
+  font-family: "Quicksand", sans-serif;
 }
 
 .SkillsImage {
@@ -253,10 +253,12 @@ body {
   background-color: #1A2350;
   border-radius: 50%;
   margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .aboutSection .profilePictureContainer .profilePicture {
   border-radius: 50%;
-  margin: 10px 0px 0px 10px;
 }
 @media screen and (min-width: 200px) {
   .aboutSection .profilePictureContainer {
@@ -291,14 +293,13 @@ body {
 
 .projectContainer {
   width: 100vw;
-  height: 90vh;
   text-align: center;
-  margin: 5rem auto 2rem auto;
+  margin: 5rem auto 5rem auto;
 }
 .projectContainer .project-image {
   width: 300px;
   border-radius: 2%;
-  margin-top: 50px;
+  margin-top: 85px;
 }
 
 .footer-section {

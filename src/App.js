@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import Header from './components/Navigation/HeaderComponent';
-import Home from './components/HomeComponent';
+import Home from './components/Home/HomeComponent';
 import Projects from './components/ProjectComponent';
 import About from './components/AboutComponent';
-import Contact from './components/ContactComponent';
+import Contact from './components/Contact/ContactComponent';
 import Footer from './components/FooterComponent';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import { Skills_Data } from './shared/Product_Data';
@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="bg-dark-blue">
         <Header />
         <Switch>
           <Route path='/home' render={() => <Home skills={skillsData} />} />
