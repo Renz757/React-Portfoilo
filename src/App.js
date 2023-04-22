@@ -8,7 +8,7 @@ import Footer from './components/FooterComponent';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import { Skills_Data } from './shared/Product_Data';
 import { Project_Image } from './shared/Product_Data';
-import './styles/App.scss';
+
 
 
 const App = () => {
