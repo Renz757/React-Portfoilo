@@ -44,6 +44,11 @@ export const Skills_Data = [
         image: "/images/redux.png",
         text: 'Redux'
     },
+    {
+        id: 9,
+        image: "/images/tailwindcss.png",
+        text: "Tailwindcss"
+    }
 ];
 
 export const Project_Image = [
