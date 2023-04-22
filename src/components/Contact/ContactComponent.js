@@ -1,12 +1,20 @@
+import { motion } from "framer-motion";
+
+import { parent, child } from "../../utils/staggerAnimation";
+
 const Contact = () => {
 
     return (
         <>
             <div className='p-14'>
-                <form>
+                <motion.form
+                    variants={parent}
+                    initial="hidden"
+                    animate="show"
+                >
                     <div className='grid grid-rows-4 grid-cols-1'>
 
-                        <div className='relative'>
+                        <motion.div variants={child} className='relative'>
                             <input type='text'
                                 id="fname"
                                 name="fname"
@@ -30,10 +38,10 @@ const Contact = () => {
                                                       '
 
                             >First Name:</label>
-                        </div>
+                        </motion.div>
 
 
-                        <div className='relative'>
+                        <motion.div variants={child} className='relative'>
                             <input type='text'
                                 id="lname"
                                 name="lname"
@@ -57,8 +65,8 @@ const Contact = () => {
                                                       '
 
                             >Last Name:</label>
-                        </div>
-                        <div className='relative'>
+                        </motion.div>
+                        <motion.div variants={child} className='relative'>
                             <input type='email'
                                 id="email"
                                 name="email"
@@ -82,8 +90,8 @@ const Contact = () => {
                                                       '
 
                             >Email:</label>
-                        </div>
-                        <div className="relative">
+                        </motion.div>
+                        <motion.div variants={child} className="relative">
                             <textarea id="message"
                                 name="message"
                                 rows="4"
@@ -111,15 +119,15 @@ const Contact = () => {
                                                       '
 
                             >Message:</label>
-                        </div>
+                        </motion.div>
 
-                        <div className=''>
+                        <motion.div variants={child} className=''>
                             <button className="border-2 border-accent-color py-2 px-4 mt-5 rounded text-accent-color">
                                 Submit
                             </button>
-                        </div>
+                        </motion.div>
                     </div>
-                </form>
+                </motion.form>
             </div>
         </>
     );

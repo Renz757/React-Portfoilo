@@ -1,11 +1,18 @@
 import { Link } from "react-router-dom";
 import profileImg from '../shared/src-images/profile-image.jpg'
 
+import { motion } from "framer-motion";
+
 const About = () => {
 
     return (
         <>
-            <div className='p-10 text-off-white flex flex-col gap-y-4'>
+            <motion.div 
+                initial={{opacity: 0}}
+                animate={{opacity: 1}}
+                transition={{delay: 0.2}}
+                className='p-12 text-off-white flex flex-col gap-y-4'
+            >
                 <h1 className="text-fedora text-4xl font-Lobster text-center">About</h1>
 
 
@@ -19,7 +26,7 @@ const About = () => {
                         I have a certificate in NuCamp’s Full-Stack Web and Mobile Development bootcamp. There I learned technologies like SCSS, Bootstrap, Javascript,  Git/Github, React, React-Native, Redux, MongoDB, Express, and NodeJs.
                         I had an amazing opportunity to work along side NuCamp’s instructors and my peers throughout the bootcamp. This is a start to a never-ending journey and I am excited to learn and see my growth over the course of time. I am currently seeking a position as a Junior Front End Web Developer. Feel free to <Link className="no-underline text-accent-color" to="/contact"><span onClick={() => window.scrollTo(0, 0)}>contact</span></Link> me to discuss opportunities if you’re interested and definitely contact me if you wish to say hi!</p>
                 </div>
-            </div>
+            </motion.div>
         </>
     );
 }
