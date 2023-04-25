@@ -1,8 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
 /* Remove input background color on chrome autocomplete*/
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
@@ -11,3 +6,7 @@ input:-webkit-autofill:focus {
 input[data-autocompleted] {
     background-color: transparent !important;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
