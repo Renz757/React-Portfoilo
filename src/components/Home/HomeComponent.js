@@ -69,6 +69,7 @@ function Home(props) {
                     <a href="https://www.linkedin.com/in/lorenzo-tinsley-0b8049139/" target="_blank" rel="noreferrer"><LinkedInIcon className="w-10 h-10 text-accent-color" fontSize="large" /></a>
                 </div>
             </motion.div>
+        
 
             <motion.div
                 className="p-10 mt-24"
