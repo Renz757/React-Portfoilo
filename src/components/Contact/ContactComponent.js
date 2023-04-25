@@ -11,6 +11,7 @@ const Contact = () => {
                     variants={parent}
                     initial="hidden"
                     animate="show"
+                    autoComplete="false"
                 >
                     <div className='grid grid-rows-4 grid-cols-1'>
 
@@ -18,6 +19,7 @@ const Contact = () => {
                             <input type='text'
                                 id="fname"
                                 name="fname"
+                                autoComplete="off"
                                 className='peer 
                                                       h-10 w-full bg-dark-blue 
                                                       border-b-2 border-off-white text-off-white
