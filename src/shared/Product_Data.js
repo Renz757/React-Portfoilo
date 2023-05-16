@@ -60,9 +60,9 @@ export const Project_Image = [
     },
     {
         id: 1,
-        image: "/images/3column-screenshot.png",
-        text: "3 column preview card Screenshot",
-        url: "https://enchanting-longma-fdb96a.netlify.app"
+        image: "/images/todo-app.gif",
+        text: "Todo App",
+        url: "https://dainty-truffle-d62af6.netlify.app/"
     },
     {
         id: 2,
@@ -77,7 +77,13 @@ export const Project_Image = [
         text: "Password Generator App",
         url: "https://incredible-boba-2909dc.netlify.app/"
 
-    }
+    },
+    {
+        id: 4,
+        image: "/images/3column-screenshot.png",
+        text: "3 column preview card Screenshot",
+        url: "https://enchanting-longma-fdb96a.netlify.app"
+    },
 ];
 
 export const About_Data = [
