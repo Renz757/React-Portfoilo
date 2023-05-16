@@ -55,34 +55,44 @@ export const Project_Image = [
     {
         id: 0,
         image: "/images/planet.gif",
-        text: "Planet Fact Site Screenshot",
-        url: "https://beautiful-buttercream-ad8680.netlify.app"
+        text: "Planet Fact Site",
+        technologies: ['React', 'Sass'],
+        url: "https://beautiful-buttercream-ad8680.netlify.app",
+        github: "https://github.com/Renz757/Planet-Fact-Site"
     },
     {
         id: 1,
         image: "/images/todo-app.gif",
         text: "Todo App",
-        url: "https://dainty-truffle-d62af6.netlify.app/"
+        technologies: ['React', 'Tailwindcss'],
+        url: "https://dainty-truffle-d62af6.netlify.app/",
+        github: "https://github.com/Renz757/todo-app"
     },
     {
         id: 2,
         image: "/images/url.gif",
-        text: "URL Shortening API Landing Page",
-        url: "https://friendly-pony-52709c.netlify.app/"
+        text: "Shortly API Landing Page",
+        technologies: ['HTML','CSS', 'Vanilla Javascript'],
+        url: "https://friendly-pony-52709c.netlify.app/",
+        github: "https://github.com/Renz757/URL-shortening-API-landing-page"
 
     },
     {
         id: 3,
         image: "/images/passwordGenerator.gif",
         text: "Password Generator App",
-        url: "https://incredible-boba-2909dc.netlify.app/"
+        technologies: ['React', 'Tailwindcss'],
+        url: "https://incredible-boba-2909dc.netlify.app/",
+        github: "https://github.com/Renz757/password-generator"
 
     },
     {
         id: 4,
         image: "/images/3column-screenshot.png",
-        text: "3 column preview card Screenshot",
-        url: "https://enchanting-longma-fdb96a.netlify.app"
+        text: "3 column preview card",
+        technologies: ['HTML', 'CSS'],
+        url: "https://enchanting-longma-fdb96a.netlify.app",
+        github: "https://github.com/Renz757/3-column-preview-card"
     },
 ];
 
