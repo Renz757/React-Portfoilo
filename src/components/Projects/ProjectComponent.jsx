@@ -47,7 +47,7 @@ const Projects = (props) => {
         variants={parent}
         initial="hidden"
         animate="show"
-        className="p-16 grid gap-y-10 md:gap-x-10 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-3 lg:grid-cols-3"
+        className="pt-10 grid gap-y-10 md:gap-x-10 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-3 lg:grid-cols-3"
       >
         {projectImages}
       </motion.ul>
