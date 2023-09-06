@@ -25,7 +25,7 @@ const Header = () => {
         <>
             {isOpen && <Backdrop closeSideNav={sideNavHandler} />}
             <SideNav isOpen={isOpen} setSideNav={sideNavHandler} />
-            <nav className="flex justify-between items-center bg-dark-blue p-3" id="#home">
+            <nav className="flex justify-between items-center bg-dark-blue p-5" id="#home">
                 <Link className="no-underline text-accent-color" to="/home">
                     <div className="w-14 h-14 border-2 rounded-full flex justify-center items-center text-2xl">
                         L
