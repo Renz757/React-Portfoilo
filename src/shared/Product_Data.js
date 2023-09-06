@@ -48,6 +48,11 @@ export const Skills_Data = [
         id: 9,
         image: "/images/tailwindcss.png",
         text: "Tailwindcss"
+    },
+    {
+        id: 10,
+        image: "/images/firebase.png",
+        text: "Firebase"
     }
 ];
 
