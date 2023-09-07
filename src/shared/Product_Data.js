@@ -99,6 +99,14 @@ export const Project_Image = [
         url: "https://enchanting-longma-fdb96a.netlify.app",
         github: "https://github.com/Renz757/3-column-preview-card"
     },
+    {
+        id: 5,
+        image: "/images/recipe-book.gif",
+        text: "Recipe Book",
+        technologies: ['React', 'Tailwindcss', 'Firebase', 'Redux'],
+        url: "https://recipe-app-4aeeb.web.app/login",
+        github: "https://github.com/Renz757/recipe-app"
+    },
 ];
 
 export const About_Data = [
