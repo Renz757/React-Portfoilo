@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const About = () => {
 
     return (
-        <>
+        <div className="container mx-auto">
             <motion.div 
                 initial={{opacity: 0}}
                 animate={{opacity: 1}}
@@ -27,7 +27,7 @@ const About = () => {
                         I had an amazing opportunity to work along side NuCamp’s instructors and my peers throughout the bootcamp. This is a start to a never-ending journey and I am excited to learn and see my growth over the course of time. I am currently seeking a position as a Junior Front End Web Developer. Feel free to <Link className="no-underline text-accent-color" to="/contact"><span onClick={() => window.scrollTo(0, 0)}>contact</span></Link> me to discuss opportunities if you’re interested and definitely contact me if you wish to say hi!</p>
                 </div>
             </motion.div>
-        </>
+        </div>
     );
 }
 

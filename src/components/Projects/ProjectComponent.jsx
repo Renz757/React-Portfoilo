@@ -42,7 +42,7 @@ const Projects = (props) => {
   });
 
   return (
-    <>
+    <div className="container mx-auto">
       <motion.ul
         variants={parent}
         initial="hidden"
@@ -51,7 +51,7 @@ const Projects = (props) => {
       >
         {projectImages}
       </motion.ul>
-    </>
+    </div>
   );
 };
 
