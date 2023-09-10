@@ -34,10 +34,10 @@ function Home(props) {
                     animate="show"
                     viewport={{ once: true }}
                 >
-                    <motion.h4 variants={child} className="text-accent-color font-Lobster lg:text-3xl" > Hi, my name is</motion.h4>
-                    <motion.h1 variants={child} className="mt-4 text-4xl lg:text-7xl">Lorenzo Tinsley<span className="text-accent-color">.</span></motion.h1>
-                    <motion.h2 variants={child} className="tracking-wide text-fedora lg:text-4xl">Passionate about creating and designing the web</motion.h2>
-                    <motion.p variants={child} className="mt-4 font-Quicksand text-off-white text-2xl">Junior front end developer looking for a role in tech.
+                    <motion.h4 variants={child} className="text-accent-color font-Lobster lg:text-3xl text-2xl" > Hi, my name is</motion.h4>
+                    <motion.h1 variants={child} className="mt-4 text-5xl lg:text-7xl">Lorenzo Tinsley<span className="text-accent-color">.</span></motion.h1>
+                    <motion.h2 variants={child} className="tracking-wide text-fedora lg:text-4xl text-2xl">Passionate about creating and designing the web</motion.h2>
+                    <motion.p variants={child} className="mt-4 font-Quicksand text-off-white lg:text-2xl text-xl">Junior front end developer looking for a role in tech.
                         Currently focusing on learning more on front end technologies like React and much more!
                     </motion.p>
                     <Link className="no-underline hover:no-underline hover:text-accent-color text-accent-color" to='about'><motion.button variants={child} onClick={toTop} className="mt-10 border-2 border-accent-color py-2 px-4 rounded font-Quicksand">Learn More</motion.button></Link>

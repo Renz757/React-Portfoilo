@@ -59,11 +59,11 @@ export const Skills_Data = [
 export const Project_Image = [
     {
         id: 0,
-        image: "/images/planet.gif",
-        text: "Planet Fact Site",
-        technologies: ['React', 'Sass'],
-        url: "https://beautiful-buttercream-ad8680.netlify.app",
-        github: "https://github.com/Renz757/Planet-Fact-Site"
+        image: "/images/recipe-book.gif",
+        text: "Recipe Book",
+        technologies: ['React', 'Tailwindcss', 'Firebase', 'Redux'],
+        url: "https://recipe-app-4aeeb.web.app/login",
+        github: "https://github.com/Renz757/recipe-app"
     },
     {
         id: 1,
@@ -75,15 +75,6 @@ export const Project_Image = [
     },
     {
         id: 2,
-        image: "/images/url.gif",
-        text: "Shortly API Landing Page",
-        technologies: ['HTML','CSS', 'Vanilla Javascript'],
-        url: "https://friendly-pony-52709c.netlify.app/",
-        github: "https://github.com/Renz757/URL-shortening-API-landing-page"
-
-    },
-    {
-        id: 3,
         image: "/images/passwordGenerator.gif",
         text: "Password Generator App",
         technologies: ['React', 'Tailwindcss'],
@@ -92,21 +83,30 @@ export const Project_Image = [
 
     },
     {
+        id: 3,
+        image: "/images/url.gif",
+        text: "Shortly API Landing Page",
+        technologies: ['HTML','CSS', 'Vanilla Javascript'],
+        url: "https://friendly-pony-52709c.netlify.app/",
+        github: "https://github.com/Renz757/URL-shortening-API-landing-page"
+
+    },
+    {
         id: 4,
+        image: "/images/planet.gif",
+        text: "Planet Fact Site",
+        technologies: ['React', 'Sass'],
+        url: "https://beautiful-buttercream-ad8680.netlify.app",
+        github: "https://github.com/Renz757/Planet-Fact-Site"
+    },
+    {
+        id: 5,
         image: "/images/3column-screenshot.png",
         text: "3 column preview card",
         technologies: ['HTML', 'CSS'],
         url: "https://enchanting-longma-fdb96a.netlify.app",
         github: "https://github.com/Renz757/3-column-preview-card"
-    },
-    {
-        id: 5,
-        image: "/images/recipe-book.gif",
-        text: "Recipe Book",
-        technologies: ['React', 'Tailwindcss', 'Firebase', 'Redux'],
-        url: "https://recipe-app-4aeeb.web.app/login",
-        github: "https://github.com/Renz757/recipe-app"
-    },
+    }
 ];
 
 export const About_Data = [
