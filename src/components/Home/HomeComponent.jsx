@@ -81,7 +81,7 @@ function Home(props) {
         className="p-10 mt-16"
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5, ease: "easeInOut" }}
+        transition={{ delay: 0.1, ease: "easeInOut" }}
         viewport={{ once: true }}
       >
         <div className="flex items-center mt-12">
